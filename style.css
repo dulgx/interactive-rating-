@@ -9,8 +9,8 @@ body {
 }
 
 body img {
-    background-color: hsl(216, 12%, 54%);
-    padding: 5px;
+    background-color: #263746;
+    padding: 10px;
     border-radius: 50px;
 }
 
@@ -18,7 +18,7 @@ body img {
 section {
     width: 350px;
     height: 350px;
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(212, 19%, 16%);
     border-radius: 20px;
     margin-top: 150px;
     padding: 30px;
@@ -37,10 +37,11 @@ section {
     display: flex;
     justify-content: space-between;
     color: hsl(217, 12%, 63%);
+
 }
 
 .rating span {
-    background-color: hsl(213, 19%, 23%);
+    background-color: hsl(213, 21%, 20%);
     padding: 20px;
     border-radius: 50px;
     height: 20px;
@@ -48,6 +49,15 @@ section {
     text-align: center;
     font-weight: 500;
     margin-top: 25px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.rating span:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+
 }
 
 button {
@@ -56,6 +66,14 @@ button {
     margin-top: 30px;
     border-radius: 15px;
     border-style: none;
-    color: hsl(25, 97%, 53%);
+    color: white;
     font-weight: 600;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }
