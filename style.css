@@ -15,7 +15,7 @@ body img {
 }
 
 
-section {
+#section {
     width: 350px;
     height: 350px;
     background-color: hsl(212, 19%, 16%);
@@ -40,27 +40,33 @@ section {
 
 }
 
-.rating span {
+.bttn {
     background-color: hsl(213, 21%, 20%);
-    padding: 20px;
     border-radius: 50px;
-    height: 20px;
-    width: 20px;
-    text-align: center;
+    height: 50px;
+    width: 50px;
     font-weight: 500;
     margin-top: 25px;
     font-weight: 600;
     transition: 0.5s;
     cursor: pointer;
+    border-style: none;
+    color: hsl(217, 12%, 63%);
 }
 
-.rating span:hover {
-    background-color: hsl(25, 97%, 53%);
+
+.bttn:hover {
+    background-color: hsl(217, 12%, 63%);
     color: white;
 
 }
 
-button {
+.bttn:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.button {
     width: 100%;
     height: 40px;
     margin-top: 30px;
@@ -73,7 +79,40 @@ button {
     transition: 0.5s;
 }
 
-button:hover {
+.button:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
+}
+
+.thanks-card {
+    display: ;
+    width: 350px;
+    height: 350px;
+    background-color: hsl(212, 19%, 16%);
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.user-rating {
+    background-color: hsl(213, 21%, 20%);
+    margin-top: 25px;
+    padding: 15px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+}
+
+.thanks {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.text {
+    color: hsl(217, 12%, 63%);
+    text-align: center;
 }
